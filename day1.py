@@ -1,6 +1,6 @@
 import cv2
 
-# 1. Load the Face Detection Brain (Haar Cascade)
+# 1. Load the Face Detection Brain (Haar Cascade)...
 face_cascade = cv2.CascadeClassifier('face.xml')
 
 # 2. Access the Webcam (0 is default camera)
