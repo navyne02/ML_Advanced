@@ -15,3 +15,8 @@
 * **Library:** DeepFace
 * **Concept:** Facial expression analysis and emotion classification.
 * **Outcome:** Built a simple but powerful AI script that analyzes an image and accurately predicts the dominant human emotion (Happy, Sad, Angry, etc.) using a pre-trained deep learning model.
+---
+### **Day 4: Hand Tracking & Landmark Detection**
+* **Library:** MediaPipe, OpenCV
+* **Concept:** Skeletal landmark tracking (21 key points per hand).
+* **Outcome:** Created a real-time hand tracking application that detects hand movements and maps structural landmarks using Google's MediaPipe framework.
