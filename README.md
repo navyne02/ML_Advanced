@@ -20,3 +20,8 @@
 * **Library:** MediaPipe, OpenCV
 * **Concept:** Skeletal landmark tracking (21 key points per hand).
 * **Outcome:** Created a real-time hand tracking application that detects hand movements and maps structural landmarks using Google's MediaPipe framework.
+---
+### **Day 5: Human Pose Estimation**
+* **Library:** MediaPipe, OpenCV
+* **Concept:** 33-point body landmark detection and skeletal mapping.
+* **Outcome:** Developed a real-time pose tracking system capable of identifying body joints and movements, laying the foundation for AI-based fitness and activity recognition applications.
