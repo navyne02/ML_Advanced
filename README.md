@@ -25,3 +25,8 @@
 * **Library:** MediaPipe, OpenCV
 * **Concept:** 33-point body landmark detection and skeletal mapping.
 * **Outcome:** Developed a real-time pose tracking system capable of identifying body joints and movements, laying the foundation for AI-based fitness and activity recognition applications.
+---
+### **Day 6: Gesture-Based Volume Control**
+* **Library:** MediaPipe, PyCaw, NumPy
+* **Concept:** Mathematical distance calculation between specific landmarks (Thumb tip and Index tip) and mapping values to system hardware parameters.
+* **Outcome:** Built a functional hand-gesture controller that adjusts the system volume in real-time, demonstrating Human-Computer Interaction (HCI).
