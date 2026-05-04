@@ -30,3 +30,9 @@
 * **Library:** MediaPipe, PyCaw, NumPy
 * **Concept:** Mathematical distance calculation between specific landmarks (Thumb tip and Index tip) and mapping values to system hardware parameters.
 * **Outcome:** Built a functional hand-gesture controller that adjusts the system volume in real-time, demonstrating Human-Computer Interaction (HCI).
+---
+### **Day 7: Virtual Paint Application (Week 1 Capstone)**
+* **Library:** MediaPipe, OpenCV, NumPy
+* **Concept:** Multi-modal interaction (Selection vs. Drawing modes) based on finger-pose logic and bitwise image manipulation.
+* **Outcome:** Built a complete air-writing/drawing application that allows users to paint on a digital canvas using hand gestures, select colors, and erase content in real-time.
+* **Week 1 Progress:** ✅ Completed Computer Vision & Gesture Control Module.
