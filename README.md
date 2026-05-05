@@ -41,3 +41,8 @@
 * **Library:** FastAPI, Uvicorn, DeepFace
 * **Concept:** API Endpoints (GET/POST), Request handling, and Model serving.
 * **Outcome:** Converted the Day 3 Emotion Detection model into a production-ready REST API. This allows external applications (Web/Mobile) to consume the AI model via HTTP requests.
+---
+### **Day 9: Containerization with Docker**
+* **Tools:** Docker, FastAPI.
+* **Concept:** Dependency management and environment isolation.
+* **Outcome:** Successfully containerized the Emotion Detection API. Created a Dockerfile to package the application, OS-level dependencies, and Python libraries into a portable image.
