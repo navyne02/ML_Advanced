@@ -36,3 +36,8 @@
 * **Concept:** Multi-modal interaction (Selection vs. Drawing modes) based on finger-pose logic and bitwise image manipulation.
 * **Outcome:** Built a complete air-writing/drawing application that allows users to paint on a digital canvas using hand gestures, select colors, and erase content in real-time.
 * **Week 1 Progress:** ✅ Completed Computer Vision & Gesture Control Module.
+---
+### **Day 8: Deploying AI as a REST API**
+* **Library:** FastAPI, Uvicorn, DeepFace
+* **Concept:** API Endpoints (GET/POST), Request handling, and Model serving.
+* **Outcome:** Converted the Day 3 Emotion Detection model into a production-ready REST API. This allows external applications (Web/Mobile) to consume the AI model via HTTP requests.
