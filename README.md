@@ -46,3 +46,8 @@
 * **Tools:** Docker, FastAPI.
 * **Concept:** Dependency management and environment isolation.
 * **Outcome:** Successfully containerized the Emotion Detection API. Created a Dockerfile to package the application, OS-level dependencies, and Python libraries into a portable image.
+---
+### **Day 10: Database Integration (AI Persistence)**
+* **Tools:** FastAPI, SQLite3, DeepFace.
+* **Concept:** Data persistence, SQL schema design, and integrating ML outputs with structured storage.
+* **Outcome:** Built a pipeline that not only predicts emotions but also logs every prediction into a local SQLite database with a timestamp for future auditing and analytics.
