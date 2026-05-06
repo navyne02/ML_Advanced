@@ -51,3 +51,8 @@
 * **Tools:** FastAPI, SQLite3, DeepFace.
 * **Concept:** Data persistence, SQL schema design, and integrating ML outputs with structured storage.
 * **Outcome:** Built a pipeline that not only predicts emotions but also logs every prediction into a local SQLite database with a timestamp for future auditing and analytics.
+---
+### **Day 11: Introduction to Deep Learning (Neural Networks)**
+* **Library:** TensorFlow, Keras.
+* **Concept:** Multi-Layer Perceptrons (MLP), Activation Functions (ReLU, Softmax), and Forward/Backward Propagation.
+* **Outcome:** Built and trained a 3-layer neural network from scratch to recognize handwritten digits with >95% accuracy.
