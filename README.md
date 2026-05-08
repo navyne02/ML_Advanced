@@ -61,3 +61,8 @@
 * **Library:** TensorFlow, Keras.
 * **Concept:** Feature Extraction through Convolution filters, Spatial hierarchy, and Pooling layers.
 * **Outcome:** Developed a CNN model to classify RGB color images from the CIFAR-10 dataset. Learned how CNNs are superior for image-related tasks compared to standard Dense networks.
+---
+### **Day 13: Transfer Learning**
+* **Library:** TensorFlow (Keras Applications).
+* **Concept:** Leveraging pre-trained weights from MobileNetV2, Feature Extraction vs. Fine-tuning.
+* **Outcome:** Built a custom classifier using a high-performance pre-trained architecture. Understand how to reuse existing AI "intelligence" for niche tasks with minimal training time.
