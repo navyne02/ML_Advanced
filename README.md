@@ -56,3 +56,8 @@
 * **Library:** TensorFlow, Keras.
 * **Concept:** Multi-Layer Perceptrons (MLP), Activation Functions (ReLU, Softmax), and Forward/Backward Propagation.
 * **Outcome:** Built and trained a 3-layer neural network from scratch to recognize handwritten digits with >95% accuracy.
+---
+### **Day 12: Convolutional Neural Networks (CNN)**
+* **Library:** TensorFlow, Keras.
+* **Concept:** Feature Extraction through Convolution filters, Spatial hierarchy, and Pooling layers.
+* **Outcome:** Developed a CNN model to classify RGB color images from the CIFAR-10 dataset. Learned how CNNs are superior for image-related tasks compared to standard Dense networks.
