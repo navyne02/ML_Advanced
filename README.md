@@ -66,3 +66,10 @@
 * **Library:** TensorFlow (Keras Applications).
 * **Concept:** Leveraging pre-trained weights from MobileNetV2, Feature Extraction vs. Fine-tuning.
 * **Outcome:** Built a custom classifier using a high-performance pre-trained architecture. Understand how to reuse existing AI "intelligence" for niche tasks with minimal training time.
+---
+### **Day 14: Real-time Object Detection (Week 2 Capstone)**
+* **Library:** OpenCV (dnn module).
+* **Model:** MobileNet-SSD (Single Shot Detector).
+* **Concept:** Bounding boxes, Confidence scores, and Non-Maximum Suppression (NMS).
+* **Outcome:** Built a high-speed object detection system capable of identifying 80 different object categories in a live video stream.
+* **Week 2 Progress:** ✅ Completed Full-Stack AI Integration & Deep Learning Vision Module.
