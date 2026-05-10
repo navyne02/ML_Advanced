@@ -73,3 +73,8 @@
 * **Concept:** Bounding boxes, Confidence scores, and Non-Maximum Suppression (NMS).
 * **Outcome:** Built a high-speed object detection system capable of identifying 80 different object categories in a live video stream.
 * **Week 2 Progress:** ✅ Completed Full-Stack AI Integration & Deep Learning Vision Module.
+---
+### **Day 15: Sequence Modeling with LSTM**
+* **Library:** TensorFlow, Keras.
+* **Concept:** Recurrent Neural Networks (RNN) and Long Short-Term Memory (LSTM) for handling sequential text data.
+* **Outcome:** Built a sentiment classifier using the IMDB movie review dataset. Learned how Embedding layers and LSTMs work together to maintain context in natural language.
