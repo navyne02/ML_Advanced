@@ -78,3 +78,8 @@
 * **Library:** TensorFlow, Keras.
 * **Concept:** Recurrent Neural Networks (RNN) and Long Short-Term Memory (LSTM) for handling sequential text data.
 * **Outcome:** Built a sentiment classifier using the IMDB movie review dataset. Learned how Embedding layers and LSTMs work together to maintain context in natural language.
+---
+### **Day 16: Time Series Forecasting with LSTM**
+* **Library:** TensorFlow, NumPy, Scikit-learn.
+* **Concept:** Windowing/Sequencing data, MinMaxScaler, and Many-to-One LSTM architecture.
+* **Outcome:** Developed a predictive model for time-dependent data. Learned how to prepare data sequences and scale them for regression-based forecasting.
