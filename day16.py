@@ -38,7 +38,7 @@ model.fit(X, y, epochs=10, batch_size=32, verbose=1)
 
 # 6. Predict & Visualize
 predictions = model.predict(X)
-predictions = scaler.inverse_transform(predictions) # Scaling-ah thirumba mathurom
+predictions = scaler.inverse_transform(predictions)
 
 plt.plot(data[50:], color='blue', label='Actual Price')
 plt.plot(predictions, color='red', label='AI Prediction')
