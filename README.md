@@ -19,7 +19,7 @@
 ### **Day 4: Hand Tracking & Landmark Detection**
 * **Library:** MediaPipe, OpenCV
 * **Concept:** Skeletal landmark tracking (21 key points per hand).
-* **Outcome:** Created a real-time hand tracking application that detects hand movements and maps structural landmarks using Google's MediaPipe framework.
+* **Outcome:** Created a real-time hand tracking application that detects hand movements and maps structural landmarks using Google's MediaPipe framework.........................................
 ---
 ### **Day 5: Human Pose Estimation**
 * **Library:** MediaPipe, OpenCV
