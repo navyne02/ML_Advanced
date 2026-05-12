@@ -61,4 +61,4 @@ def generate_text(seed, length=20):
 # Test the AI
 start_seed = "machine le" # Must be 10 chars
 print(f"\nSeed: {start_seed}")
-print(f"AI Writes: {generate_text(start_seed)}")
+print(f"AI Writes: {generate_text(start_seed)}")         #this the completee codeeeeeeeeeeeeeeeeeeeee
