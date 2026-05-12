@@ -83,3 +83,8 @@
 * **Library:** TensorFlow, NumPy, Scikit-learn.
 * **Concept:** Windowing/Sequencing data, MinMaxScaler, and Many-to-One LSTM architecture.
 * **Outcome:** Developed a predictive model for time-dependent data. Learned how to prepare data sequences and scale them for regression-based forecasting.
+---
+### **Day 17: Text Generation with RNN/LSTM**
+* **Library:** TensorFlow, NumPy.
+* **Concept:** Character-level modeling, One-hot encoding for text, and Softmax probability for next-character prediction.
+* **Outcome:** Built a generative model that learns the structure of a given text and generates new sequences. Understand the foundation of how LLMs (Large Language Models) work.
