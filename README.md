@@ -88,3 +88,8 @@
 * **Library:** TensorFlow, NumPy.
 * **Concept:** Character-level modeling, One-hot encoding for text, and Softmax probability for next-character prediction.
 * **Outcome:** Built a generative model that learns the structure of a given text and generates new sequences. Understand the foundation of how LLMs (Large Language Models) work.
+---
+### **Day 19: Text Summarization Engine**
+* **Library:** NLTK (Natural Language Toolkit).
+* **Concept:** Extractive Summarization using Word Frequency Scoring.
+* **Outcome:** Developed an AI tool that can condense long paragraphs into concise summaries by identifying and ranking key sentences based on importance.
