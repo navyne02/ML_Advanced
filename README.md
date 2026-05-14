@@ -93,3 +93,9 @@
 * **Library:** NLTK (Natural Language Toolkit).
 * **Concept:** Extractive Summarization using Word Frequency Scoring.
 * **Outcome:** Developed an AI tool that can condense long paragraphs into concise summaries by identifying and ranking key sentences based on importance.
+---
+### **Day 20: Language Translation with Transformers**
+* **Library:** Hugging Face Transformers.
+* **Model:** T5-Small (Text-to-Text Transfer Transformer).
+* **Concept:** Attention Mechanism and Encoder-Decoder architectures in NLP.
+* **Outcome:** Built a functional translation tool that converts English text to other languages using state-of-the-art Transformer models.
