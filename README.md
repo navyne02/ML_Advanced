@@ -99,3 +99,8 @@
 * **Model:** T5-Small (Text-to-Text Transfer Transformer).
 * **Concept:** Attention Mechanism and Encoder-Decoder architectures in NLP.
 * **Outcome:** Built a functional translation tool that converts English text to other languages using state-of-the-art Transformer models.
+---
+### **Day 21: Named Entity Recognition (NER)**
+* **Library:** spaCy.
+* **Concept:** Information Extraction, Part-of-Speech Tagging, and Entity Classification.
+* **Outcome:** Built a tool to automatically extract and categorize key information (Names, Locations, Dates, Organizations) from unstructured text data using pre-trained NLP models.
