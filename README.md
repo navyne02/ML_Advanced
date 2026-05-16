@@ -104,3 +104,9 @@
 * **Library:** spaCy.
 * **Concept:** Information Extraction, Part-of-Speech Tagging, and Entity Classification.
 * **Outcome:** Built a tool to automatically extract and categorize key information (Names, Locations, Dates, Organizations) from unstructured text data using pre-trained NLP models.
+---
+### **Day 22: Introduction to Generative AI & LLMs**
+* **Library:** Hugging Face Transformers.
+* **Model:** Google Flan-T5.
+* **Concept:** Text-to-Text Transfer Transformers, Prompting, and Decoding.
+* **Outcome:** Successfully deployed a local Large Language Model (LLM) to perform zero-shot tasks like question answering and instruction following.
