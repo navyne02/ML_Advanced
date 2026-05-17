@@ -110,3 +110,8 @@
 * **Model:** Google Flan-T5.
 * **Concept:** Text-to-Text Transfer Transformers, Prompting, and Decoding.
 * **Outcome:** Successfully deployed a local Large Language Model (LLM) to perform zero-shot tasks like question answering and instruction following.
+---
+### **Day 23: Advanced Prompt Engineering**
+* **Library:** Hugging Face Transformers.
+* **Concept:** Few-Shot Prompting, In-Context Learning, and Structured Output Generation (JSON parsing).
+* **Outcome:** Built an LLM pipeline that utilizes strategic formatting and examples to force a local text-generation model to output structured metadata instead of conversational prose.
