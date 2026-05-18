@@ -115,3 +115,8 @@
 * **Library:** Hugging Face Transformers.
 * **Concept:** Few-Shot Prompting, In-Context Learning, and Structured Output Generation (JSON parsing).
 * **Outcome:** Built an LLM pipeline that utilizes strategic formatting and examples to force a local text-generation model to output structured metadata instead of conversational prose.
+---
+### **Day 24: Retrieval-Augmented Generation (RAG)**
+* **Library:** Hugging Face Transformers.
+* **Concept:** Context injection, Knowledge-base Retrieval mechanisms, and Augmentation flows.
+* **Outcome:** Built an in-memory RAG system from scratch. Learned how to query a private knowledge base, extract relevant text metadata, and feed it into a local open-source LLM to produce domain-specific accuracy without model fine-tuning.
