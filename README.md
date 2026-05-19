@@ -120,3 +120,9 @@
 * **Library:** Hugging Face Transformers.
 * **Concept:** Context injection, Knowledge-base Retrieval mechanisms, and Augmentation flows.
 * **Outcome:** Built an in-memory RAG system from scratch. Learned how to query a private knowledge base, extract relevant text metadata, and feed it into a local open-source LLM to produce domain-specific accuracy without model fine-tuning.
+---
+### **Day 25: Vector Embeddings & Semantic Similarity**
+* **Library:** Sentence-Transformers (PyTorch backend).
+* **Model:** all-MiniLM-L6-v2.
+* **Concept:** Text Vectorization, Dense Embeddings, and Cosine Similarity calculation.
+* **Outcome:** Developed an implementation to measure semantic overlap between sentences. Understood how modern production RAG pipelines convert raw knowledge documentation into vector spaces for efficient neural searches.
