@@ -1,7 +1,7 @@
 # 1. Base Image (Python 3.9 use panrom)
 FROM python:3.9-slim
 
-# 2. Set Working Directory
+
 WORKDIR /app
 
 # 3. Install system dependencies (OpenCV-ku thevaiyanathu)
