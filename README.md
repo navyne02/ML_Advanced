@@ -126,3 +126,8 @@
 * **Model:** all-MiniLM-L6-v2.
 * **Concept:** Text Vectorization, Dense Embeddings, and Cosine Similarity calculation.
 * **Outcome:** Developed an implementation to measure semantic overlap between sentences. Understood how modern production RAG pipelines convert raw knowledge documentation into vector spaces for efficient neural searches.
+---
+### **Day 26: Vector Databases with ChromaDB**
+* **Library:** ChromaDB.
+* **Concept:** Vector persistence, Document indexing, Collections management, and Semantic nearest-neighbor retrieval.
+* **Outcome:** Configured a local on-disk Vector Database pipeline. Implemented programmatic insertion of text vectors paired with contextual metadata and executed intelligent semantic queries ignoring pure keyword matching.
