@@ -2,7 +2,6 @@ import cv2
 
 face_cascade = cv2.CascadeClassifier('face.xml')
 
-# 2. Access the Webcam (0 is default camera)
 cap = cv2.VideoCapture(0)
 
 print("Webcam Starting... Press 'q' to stop!")
