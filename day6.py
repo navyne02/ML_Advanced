@@ -6,15 +6,14 @@ from ctypes import cast, POINTER
 from comtypes import CLSCTX_ALL
 from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume
 
-# 1. PyCaw Setup (Audio Control)
+
 devices = AudioUtilities.GetSpeakers()
 interface = devices.Activate(IAudioEndpointVolume._iid_, CLSCTX_ALL, None)
 volume = cast(interface, POINTER(IAudioEndpointVolume))
-volRange = volume.GetVolumeRange() # [min, max, step]
+volRange = volume.GetVolumeRange()
 minVol = volRange[0]
 maxVol = volRange[1]
 
-# 2. MediaPipe Hands Setup
 mp_hands = mp.solutions.hands
 hands = mp_hands.Hands(max_num_hands=1, detection_confidence=0.7)
 mp_draw = mp.solutions.drawing_utils
@@ -35,23 +34,23 @@ while cap.isOpened():
                 lm_list.append([id, cx, cy])
 
             if lm_list:
-                # Point 4: Thumb Tip | Point 8: Index Tip
+         
                 x1, y1 = lm_list[4][1], lm_list[4][2]
                 x2, y2 = lm_list[8][1], lm_list[8][2]
 
-                # Draw circles on tips and a line between them
+           
                 cv2.circle(img, (x1, y1), 10, (255, 0, 255), cv2.FILLED)
                 cv2.circle(img, (x2, y2), 10, (255, 0, 255), cv2.FILLED)
                 cv2.line(img, (x1, y1), (x2, y2), (255, 0, 255), 3)
 
-                # 3. Calculate Distance
+          
                 length = math.hypot(x2 - x1, y2 - y1)
 
-                # 4. Map Distance to Volume (Distance range 20-200 to Vol range min-max)
+            
                 vol = np.interp(length, [20, 200], [minVol, maxVol])
                 volume.SetMasterVolumeLevel(vol, None)
                 
-                # Visual Bar
+              
                 volBar = np.interp(length, [20, 200], [400, 150])
                 cv2.rectangle(img, (50, 150), (85, 400), (0, 255, 0), 3)
                 cv2.rectangle(img, (50, int(volBar)), (85, 400), (0, 255, 0), cv2.FILLED)
