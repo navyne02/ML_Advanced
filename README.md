@@ -132,7 +132,7 @@
 * **Concept:** Vector persistence, Document indexing, Collections management, and Semantic nearest-neighbor retrieval.
 * **Outcome:** Configured a local on-disk Vector Database pipeline. Implemented programmatic insertion of text vectors paired with contextual metadata and executed intelligent semantic queries ignoring pure keyword matching.
 ---
-### **Day 27: End-to-End RAG Production Pipeline**
-* **Library:** ChromaDB, Hugging Face Transformers.
-* **Concept:** Context Enhancement, Vector DB Query Routing, and Generative Model Integration.
-* **Outcome:** Engineered a production-ready Retrieval-Augmented Generation system. Combined local persistent multi-dimensional spatial database query layers with text-to-text transformers to handle hyper-specific domain workflows safely.
+### **Day 27 (Bonus): RAG Web Application with Streamlit**
+* **Library:** Streamlit, ChromaDB, Transformers.
+* **Concept:** Frontend AI integration, Model Caching (`@st.cache_resource`), and Interactive UI.
+* **Outcome:** Wrapped the backend RAG pipeline into a user-friendly web interface, allowing real-time interaction with the Vector DB and LLM through a browser.
