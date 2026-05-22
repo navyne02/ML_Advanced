@@ -136,3 +136,8 @@
 * **Library:** Streamlit, ChromaDB, Transformers.
 * **Concept:** Frontend AI integration, Model Caching (`@st.cache_resource`), and Interactive UI.
 * **Outcome:** Wrapped the backend RAG pipeline into a user-friendly web interface, allowing real-time interaction with the Vector DB and LLM through a browser.
+---
+### **Day 28: Model Quantization & Fine-Tuning Concepts**
+* **Library:** NumPy, Core Python Precision Analytics.
+* **Concept:** Bit-Depth Reduction, Symmetric Quantization Matrix Scaling, and Parameter-Efficient Fine-Tuning (PEFT/LoRA) fundamentals.
+* **Outcome:** Simulated neural network weight scaling from FP32 to INT8 matrix distribution layers. Achieved an absolute 4x optimization architecture compression while evaluating minimal quantization error variance.
