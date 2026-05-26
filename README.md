@@ -151,3 +151,13 @@
 * **Library:** Streamlit, ChromaDB, Transformers, PyTorch.
 * **Concept:** End-to-End Enterprise RAG Systems, Advanced Session State Tracking, and Vector UI Orchestration.
 * **Outcome:** Successfully deployed a fully interactive, production-grade conversational Knowledge Base Assistant. Formally completed the 30-Day Advanced Machine Learning and Artificial Intelligence Challenge!
+---
+### **Day 31: RAG Evaluation & Hallucination Guardrails**
+* **Library:** NumPy, Core NLP Precision Metrics.
+* **Concept:** RAG Evaluation (Ragas framework theory), Faithfulness Matrix, and Answer Relevance scoring.
+* **Outcome:** Engineered an automated validation pipeline to analyze LLM generation logs against retrieved context vectors. Created guardrails to isolate and alert hallucinated model outputs dynamically.
+---
+### **Day 32: Graph Neural Networks & Node Classification**
+* **Library:** NumPy Network Analytics layer.
+* **Concept:** Graph Convolutional Networks (GCN), Adjacency Matrix representations, Message Passing, and Node Aggregation.
+* **Outcome:** Simulated a Graph Convolution operation from scratch. Learned how structural network connections act as message passing matrices to diffuse local neighbor node features for downstream classification tasks.
