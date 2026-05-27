@@ -161,3 +161,8 @@
 * **Library:** NumPy Network Analytics layer.
 * **Concept:** Graph Convolutional Networks (GCN), Adjacency Matrix representations, Message Passing, and Node Aggregation.
 * **Outcome:** Simulated a Graph Convolution operation from scratch. Learned how structural network connections act as message passing matrices to diffuse local neighbor node features for downstream classification tasks.
+---
+### **Day 33: Audio Processing & Acoustic Feature Extraction**
+* **Library:** NumPy Digital Signal Processing layer.
+* **Concept:** Audio Digital Sampling, Short-Time Fourier Transform (STFT) theory, and Mel-Frequency Cepstral Coefficients (MFCC) matrix mappings.
+* **Outcome:** Simulated a complete acoustic processing pipeline from raw wave inputs to 2D feature representations. Understood how complex non-grid auditory signals are structured into mathematical matrices for CNN classification networks.
