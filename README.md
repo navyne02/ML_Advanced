@@ -166,3 +166,8 @@
 * **Library:** NumPy Digital Signal Processing layer.
 * **Concept:** Audio Digital Sampling, Short-Time Fourier Transform (STFT) theory, and Mel-Frequency Cepstral Coefficients (MFCC) matrix mappings.
 * **Outcome:** Simulated a complete acoustic processing pipeline from raw wave inputs to 2D feature representations. Understood how complex non-grid auditory signals are structured into mathematical matrices for CNN classification networks.
+  ---
+### **Day 34: Anomaly Detection & Cybersecurity**
+* **Library:** Scikit-Learn (Isolation Forests), Matplotlib.
+* **Concept:** Unsupervised Learning, Outlier Detection, and Isolation Forest algorithms.
+* **Outcome:** Built an intrusion detection system capable of monitoring synthetic server traffic logs and automatically flagging anomalous request spikes (simulating DDoS attacks) without prior labeled data.
