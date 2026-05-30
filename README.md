@@ -171,3 +171,8 @@
 * **Library:** Scikit-Learn (Isolation Forests), Matplotlib.
 * **Concept:** Unsupervised Learning, Outlier Detection, and Isolation Forest algorithms.
 * **Outcome:** Built an intrusion detection system capable of monitoring synthetic server traffic logs and automatically flagging anomalous request spikes (simulating DDoS attacks) without prior labeled data.
+---
+### **Day 35: Explainable AI (XAI) using SHAP**
+* **Library:** SHAP, Scikit-Learn, Matplotlib.
+* **Concept:** SHapley Additive exPlanations, Model Interpretability, and Black-Box Debugging.
+* **Outcome:** Integrated an XAI framework into a Random Forest classification model. Successfully extracted and visualized the deterministic logic behind individual and global AI predictions to ensure algorithmic fairness and transparency.
