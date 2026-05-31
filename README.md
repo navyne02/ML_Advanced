@@ -176,3 +176,13 @@
 * **Library:** SHAP, Scikit-Learn, Matplotlib.
 * **Concept:** SHapley Additive exPlanations, Model Interpretability, and Black-Box Debugging.
 * **Outcome:** Integrated an XAI framework into a Random Forest classification model. Successfully extracted and visualized the deterministic logic behind individual and global AI predictions to ensure algorithmic fairness and transparency.
+---
+### **Day 36: AI Security & Adversarial Attacks**
+* **Library:** PyTorch, TorchVision.
+* **Concept:** Fast Gradient Sign Method (FGSM), Image Perturbations, and Model Vulnerability Testing.
+* **Outcome:** Programmed a white-box adversarial attack script. Exploited the backpropagation gradient calculations not to update model weights, but to intentionally corrupt input pixels, successfully forcing a state-of-the-art CNN to misclassify an image.
+---
+### **Day 37: MLOps - Data Drift & MLflow Tracking**
+* **Library:** MLflow, Scikit-Learn.
+* **Concept:** Concept/Data Drift simulation, Experiment Tracking, and MLOps Lifecycle Management.
+* **Outcome:** Implemented an automated tracking script using MLflow to monitor a model's accuracy decay when exposed to out-of-distribution production data, successfully setting up a local experiment dashboard.
