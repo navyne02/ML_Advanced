@@ -186,3 +186,8 @@
 * **Library:** MLflow, Scikit-Learn.
 * **Concept:** Concept/Data Drift simulation, Experiment Tracking, and MLOps Lifecycle Management.
 * **Outcome:** Implemented an automated tracking script using MLflow to monitor a model's accuracy decay when exposed to out-of-distribution production data, successfully setting up a local experiment dashboard.
+---
+### **Day 38: Privacy-Preserving AI & Federated Learning**
+* **Library:** Scikit-Learn, NumPy.
+* **Concept:** Federated Averaging (FedAvg), Decentralized Machine Learning, and Data Privacy.
+* **Outcome:** Simulated a Federated Learning network where two decentralized nodes (simulating hospitals) trained local models. A central server then aggregated the parameters (weights and biases) using FedAvg to build a robust global model without transferring any raw data.
