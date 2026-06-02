@@ -191,3 +191,8 @@
 * **Library:** Scikit-Learn, NumPy.
 * **Concept:** Federated Averaging (FedAvg), Decentralized Machine Learning, and Data Privacy.
 * **Outcome:** Simulated a Federated Learning network where two decentralized nodes (simulating hospitals) trained local models. A central server then aggregated the parameters (weights and biases) using FedAvg to build a robust global model without transferring any raw data.
+---
+### **Day 39: Reinforcement Learning & Q-Learning**
+* **Library:** NumPy.
+* **Concept:** Markov Decision Processes (MDP), Bellman Equation, Epsilon-Greedy Exploration, and Q-Tables.
+* **Outcome:** Developed a fundamental Reinforcement Learning agent from scratch. Trained the agent to navigate a 1D grid environment by updating action-value pairs through trial, error, and delayed reward optimization.
