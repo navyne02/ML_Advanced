@@ -196,3 +196,8 @@
 * **Library:** NumPy.
 * **Concept:** Markov Decision Processes (MDP), Bellman Equation, Epsilon-Greedy Exploration, and Q-Tables.
 * **Outcome:** Developed a fundamental Reinforcement Learning agent from scratch. Trained the agent to navigate a 1D grid environment by updating action-value pairs through trial, error, and delayed reward optimization.
+---
+### **Day 40: Deep Q-Networks (DQN)**
+* **Library:** PyTorch, Torch.nn.
+* **Concept:** Deep Reinforcement Learning, Neural Network Function Approximators, and State-Action Mappings.
+* **Outcome:** Built a Deep Q-Network architecture to overcome the state-space limitations of tabular Q-learning. Implemented a forward pass simulation to map complex continuous environment states to discrete action Q-values.
