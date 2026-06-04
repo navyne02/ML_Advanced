@@ -201,3 +201,8 @@
 * **Library:** PyTorch, Torch.nn.
 * **Concept:** Deep Reinforcement Learning, Neural Network Function Approximators, and State-Action Mappings.
 * **Outcome:** Built a Deep Q-Network architecture to overcome the state-space limitations of tabular Q-learning. Implemented a forward pass simulation to map complex continuous environment states to discrete action Q-values.
+---
+### **Day 41: Reinforcement Learning from Human Feedback (RLHF)**
+* **Library:** Python, Core Mathematics.
+* **Concept:** Reward Modeling, AI Alignment, Prompt-Response Evaluation, and Penalty Systems.
+* **Outcome:** Built a conceptual Reward Model simulator mimicking the RLHF pipeline used in modern LLMs. Engineered a scoring algorithm to evaluate and rank AI-generated text based on simulated human-aligned values (helpfulness vs. toxicity).
