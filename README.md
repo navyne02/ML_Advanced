@@ -206,3 +206,8 @@
 * **Library:** Python, Core Mathematics.
 * **Concept:** Reward Modeling, AI Alignment, Prompt-Response Evaluation, and Penalty Systems.
 * **Outcome:** Built a conceptual Reward Model simulator mimicking the RLHF pipeline used in modern LLMs. Engineered a scoring algorithm to evaluate and rank AI-generated text based on simulated human-aligned values (helpfulness vs. toxicity).
+---
+### **Day 42: Actor-Critic Architecture (A2C)**
+* **Library:** PyTorch, Torch.nn.
+* **Concept:** Multi-head Neural Networks, Policy Gradients (Actor), Value Functions (Critic), and Advantage calculations.
+* **Outcome:** Engineered a unified Actor-Critic neural network. Demonstrated how a single shared hidden layer can branch into dual heads to simultaneously predict action probabilities (policy) and evaluate state advantages (value) for advanced RL algorithms like PPO.
