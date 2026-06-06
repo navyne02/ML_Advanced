@@ -211,3 +211,8 @@
 * **Library:** PyTorch, Torch.nn.
 * **Concept:** Multi-head Neural Networks, Policy Gradients (Actor), Value Functions (Critic), and Advantage calculations.
 * **Outcome:** Engineered a unified Actor-Critic neural network. Demonstrated how a single shared hidden layer can branch into dual heads to simultaneously predict action probabilities (policy) and evaluate state advantages (value) for advanced RL algorithms like PPO.
+---
+### **Day 43: RL Self-Play & Evolutionary Strategies**
+* **Library:** NumPy.
+* **Concept:** Self-Play, Nash Equilibrium, Dynamic Weight Updating, and Agent Cloning.
+* **Outcome:** Developed an evolutionary Reinforcement Learning simulation. Demonstrated how an AI agent can optimize its strategic policy strictly by competing against historical versions of itself, bypassing the need for human-annotated training data.
