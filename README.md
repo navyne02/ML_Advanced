@@ -221,3 +221,8 @@
 * **Library:** Hugging Face Transformers, PyTorch, Pillow.
 * **Concept:** Contrastive Language-Image Pretraining (CLIP), Vision-Language Models, and Zero-Shot Image Classification.
 * **Outcome:** Engineered a multimodal pipeline using OpenAI's CLIP architecture. Successfully bridged text and visual modalities in a shared vector space to perform zero-shot classification without explicit dataset fine-tuning.
+---
+### **Day 45: Multimodal AI & Image Captioning**
+* **Library:** Hugging Face Transformers, BLIP, PyTorch, Pillow.
+* **Concept:** Vision-Language Generation, Encoder-Decoder architectures, Unconditional and Conditional Text Generation.
+* **Outcome:** Implemented a state-of-the-art BLIP (Bootstrapping Language-Image Pre-training) model to build an automated image captioning pipeline. Successfully bridged visual feature extraction with autoregressive text decoding to generate human-readable descriptions of raw image data.
