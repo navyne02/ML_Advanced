@@ -226,3 +226,8 @@
 * **Library:** Hugging Face Transformers, BLIP, PyTorch, Pillow.
 * **Concept:** Vision-Language Generation, Encoder-Decoder architectures, Unconditional and Conditional Text Generation.
 * **Outcome:** Implemented a state-of-the-art BLIP (Bootstrapping Language-Image Pre-training) model to build an automated image captioning pipeline. Successfully bridged visual feature extraction with autoregressive text decoding to generate human-readable descriptions of raw image data.
+---
+### **Day 46: Visual Question Answering (VQA)**
+* **Library:** Hugging Face Transformers, ViLT, PyTorch, Pillow.
+* **Concept:** Vision-and-Language Transformers, Multimodal Contextual Reasoning, and Image-Text feature fusion.
+* **Outcome:** Integrated the ViLT architecture to create a Visual Question Answering assistant. Successfully engineered a pipeline capable of processing natural language queries against visual inputs to extract and infer context-specific answers dynamically.
