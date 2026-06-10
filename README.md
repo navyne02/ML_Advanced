@@ -231,3 +231,8 @@
 * **Library:** Hugging Face Transformers, ViLT, PyTorch, Pillow.
 * **Concept:** Vision-and-Language Transformers, Multimodal Contextual Reasoning, and Image-Text feature fusion.
 * **Outcome:** Integrated the ViLT architecture to create a Visual Question Answering assistant. Successfully engineered a pipeline capable of processing natural language queries against visual inputs to extract and infer context-specific answers dynamically.
+---
+### **Day 47: Generative AI - Text-to-Image with Stable Diffusion**
+* **Library:** Hugging Face Diffusers, PyTorch, Accelerate.
+* **Concept:** Forward/Reverse Diffusion, Denoising U-Net architectures, Latent Space mappings, and Hardware VRAM optimization.
+* **Outcome:** Engineered a local generative AI pipeline using Stable Diffusion v1.5. Implemented attention slicing and FP16 precision adjustments to successfully render high-resolution images from complex text prompts directly on consumer-grade GPU hardware.
