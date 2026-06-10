@@ -236,3 +236,8 @@
 * **Library:** Hugging Face Diffusers, PyTorch, Accelerate.
 * **Concept:** Forward/Reverse Diffusion, Denoising U-Net architectures, Latent Space mappings, and Hardware VRAM optimization.
 * **Outcome:** Engineered a local generative AI pipeline using Stable Diffusion v1.5. Implemented attention slicing and FP16 precision adjustments to successfully render high-resolution images from complex text prompts directly on consumer-grade GPU hardware.
+---
+### **Day 48: Speech AI - Transcription & Synthesis**
+* **Library:** Hugging Face Transformers, Whisper, SpeechT5, SoundFile.
+* **Concept:** Automatic Speech Recognition (ASR), Text-to-Speech (TTS), Vocoders, and Speaker Embeddings.
+* **Outcome:** Engineered an end-to-end audio pipeline. Synthesized high-fidelity natural speech from text using SpeechT5 and verified the output quality by running a closed-loop transcription check using OpenAI's Whisper ASR model.
