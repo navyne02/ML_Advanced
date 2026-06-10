@@ -1,43 +1,34 @@
 import torch
-from diffusers import StableDiffusionPipeline
-import matplotlib.pyplot as plt
+from transformers import pipeline, SpeechT5Processor, SpeechT5ForTextToSpeech, SpeechT5HifiGan
+from datasets import load_dataset
+import soundfile as sf
 
-print("--- Step 1: Loading the Generative AI Brain (Stable Diffusion) ---")
-# Loading the model. We use float16 to heavily save RAM/VRAM on your RTX 3050
-model_id = "runwayml/stable-diffusion-v1-5"
+print("--- Step 1: Speech-to-Text (Whisper AI - Listening) ---")
+# Loading Whisper for transcription
+whisper = pipeline("automatic-speech-recognition", model="openai/whisper-tiny")
 
-print("Downloading/Loading weights... (This might take a minute)")
-pipe = StableDiffusionPipeline.from_pretrained(model_id, torch_dtype=torch.float16)
+print("--- Step 2: Text-to-Speech (SpeechT5 AI - Speaking) ---")
+# Loading SpeechT5 components
+processor = SpeechT5Processor.from_pretrained("microsoft/speecht5_tts")
+model = SpeechT5ForTextToSpeech.from_pretrained("microsoft/speecht5_tts")
+vocoder = SpeechT5HifiGan.from_pretrained("microsoft/speecht5_hifi_gan")
 
-# Move the computation to your Nvidia GPU
-pipe = pipe.to("cuda")
+# Load a speaker embedding (to sound like a human)
+embeddings_dataset = load_dataset("Matthijs/cmu-arctic-xvectors", split="validation")
+speaker_embeddings = torch.tensor(embeddings_dataset[7306]["xvector"]).unsqueeze(0)
 
-# ⚡ VRAM Optimization for 4GB GPUs (Crucial for RTX 3050)
-pipe.enable_attention_slicing()
+# Generate Speech
+text = "Vanakkaam Naveen! Advanced AI engineering is fascinating."
+inputs = processor(text=text, return_tensors="pt")
+speech = model.generate_speech(inputs["input_ids"], speaker_embeddings, vocoder=vocoder)
 
-print("✅ Generative AI Model Loaded and Optimized!")
+# Save the generated audio file
+sf.write("speech.wav", speech.numpy(), samplerate=16000)
+print(f"✅ Generated audio: 'speech.wav' for text: '{text}'")
 
-print("\n--- Step 2: Giving the AI an Imagination Prompt ---")
-# You can change this text to whatever you want the AI to draw!
-prompt = "A futuristic cyberpunk city in Tamil Nadu, flying cars, neon lights, rainy night, highly detailed 4k ultra realistic"
+print("\n--- Step 3: Verifying with Whisper (AI Listening to itself) ---")
+transcription = whisper("speech.wav")["text"]
+print(f"👂 AI listened to itself and heard: '{transcription}'")
 
-print(f"🎨 User Imagination Prompt: '{prompt}'")
-
-print("\n--- Step 3: Generating the Image from Thin Air (Diffusion Process) ---")
-print("Diffusion process started. Removing noise step-by-step... ⏳")
-
-# The AI generates the image based on the text prompt
-image = pipe(prompt).images[0]
-
-print("✅ Masterpiece successfully generated!")
-
-print("\n--- Step 4: Saving and Displaying the Output ---")
-# Display the generated image in a window
-plt.imshow(image)
-plt.axis("off")
-plt.title("Day 47: AI Generated Art")
-plt.show()
-
-# Save it to your ML_Advanced folder
-image.save("ai_cyberpunk_city.png")
-print("💾 Image saved as 'ai_cyberpunk_city.png' in your project folder.")
+if text.lower().strip(".") in transcription.lower():
+    print("\n🌟 SUCCESS: AI perfectly understood its own generated speech!")
