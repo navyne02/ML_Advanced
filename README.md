@@ -256,3 +256,8 @@
 * **Library:** Streamlit, Concurrent.futures, Time.
 * **Concept:** ThreadPoolExecutor, Memoization (`@st.cache_data`), Singleton Model Loading (`@st.cache_resource`), and Latency Reduction.
 * **Outcome:** Engineered a high-performance simulation of a batch OCR pipeline. Drastically reduced execution time by implementing multithreaded concurrent processing and leveraging stateful caching mechanisms to prevent redundant computations.
+---
+### **Day 52: Cyber-AI - Network Intrusion Detection System (IDS)**
+* **Library:** Scikit-Learn (Isolation Forest), Pandas.
+* **Concept:** Unsupervised Anomaly Detection, Network Traffic Analysis, Layer 4 Feature Extraction.
+* **Outcome:** Developed an intelligent network security agent capable of classifying raw network packets. Deployed an Isolation Forest algorithm to differentiate between benign HTTP/HTTPS traffic and malicious anomalies (e.g., Port Scans, DDoS payloads) purely based on multivariate behavioral patterns.
