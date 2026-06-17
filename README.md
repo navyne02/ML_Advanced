@@ -271,3 +271,8 @@
 * **Library:** Scikit-Learn (Random Forest), Pandas, NumPy.
 * **Concept:** Network Security, Application Layer Inspection (Port 53), Feature Engineering (Entropy and Structure analysis), Data Exfiltration Prevention.
 * **Outcome:** Developed an automated SecOps machine learning model to intercept DNS Tunneling attacks. Trained a Random Forest classifier to identify malicious payloads embedded inside domain structures based on query length and feature entropy, maintaining secure zero-trust network boundaries.
+---
+### **Day 55: Cyber-AI - Encrypted Traffic Analysis & Fingerprinting**
+* **Library:** Scikit-Learn (Gradient Boosting), Pandas, NumPy.
+* **Concept:** Encrypted Traffic Classification, IPsec/VPN Metadata Analysis, Packet Inter-Arrival Time (IAT) tracking, Quality of Service (QoS).
+* **Outcome:** Engineered an advanced network intelligence model capable of classifying encrypted IPsec tunnel traffic without payload decryption. Leveraged multivariate flow statistics and Gradient Boosting to identify application profiles (Video vs. File Transfers) strictly via packet metadata fingerprinting.
