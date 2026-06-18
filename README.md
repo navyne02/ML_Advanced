@@ -276,3 +276,8 @@
 * **Library:** Scikit-Learn (Gradient Boosting), Pandas, NumPy.
 * **Concept:** Encrypted Traffic Classification, IPsec/VPN Metadata Analysis, Packet Inter-Arrival Time (IAT) tracking, Quality of Service (QoS).
 * **Outcome:** Engineered an advanced network intelligence model capable of classifying encrypted IPsec tunnel traffic without payload decryption. Leveraged multivariate flow statistics and Gradient Boosting to identify application profiles (Video vs. File Transfers) strictly via packet metadata fingerprinting.
+---
+### **Day 56: Cyber-AI - Malware Beaconing & C2 Tracking**
+* **Library:** NumPy, Pandas.
+* **Concept:** Network Telemetry, Inter-Arrival Time (IAT) Analysis, Coefficient of Variation, Botnet Detection.
+* **Outcome:** Implemented a lightweight, highly efficient behavioral anomaly detector to capture C2 malware beaconing. Applied statistical variance profiling over packet timestamp series to isolate highly mechanical automated tasks from standard bursty human network behavior.
