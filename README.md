@@ -281,3 +281,8 @@
 * **Library:** NumPy, Pandas.
 * **Concept:** Network Telemetry, Inter-Arrival Time (IAT) Analysis, Coefficient of Variation, Botnet Detection.
 * **Outcome:** Implemented a lightweight, highly efficient behavioral anomaly detector to capture C2 malware beaconing. Applied statistical variance profiling over packet timestamp series to isolate highly mechanical automated tasks from standard bursty human network behavior.
+---
+### **Day 57: Game AI - Behavior Trees (Hierarchical State Architecture)**
+* **Library:** Pure Python Core.
+* **Concept:** Non-Linear Game AI, Composite Nodes (Selectors/Sequences), Leaf Nodes (Actions/Conditions), Execution Tick Orchestration.
+* **Outcome:** Engineered a robust modular Behavior Tree framework from scratch for autonomous NPC decision-making. Demonstrated how complex conditional branching can be refactored into declarative structural nodes, eliminating procedural state machine complexity.
