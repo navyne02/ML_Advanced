@@ -286,3 +286,8 @@
 * **Library:** Pure Python Core.
 * **Concept:** Non-Linear Game AI, Composite Nodes (Selectors/Sequences), Leaf Nodes (Actions/Conditions), Execution Tick Orchestration.
 * **Outcome:** Engineered a robust modular Behavior Tree framework from scratch for autonomous NPC decision-making. Demonstrated how complex conditional branching can be refactored into declarative structural nodes, eliminating procedural state machine complexity.
+---
+### **Day 58: Edge AI & Hardware Performance Optimization**
+* **Library:** PyTorch, Core OS.
+* **Concept:** NVIDIA TensorRT Optimization Architecture, Model Quantization (FP32 to INT8), Inference Latency Reduction, Memory Footprint Compression.
+* **Outcome:** Simulated high-performance TensorRT deployment mechanics by developing a dynamic model quantization pipeline. Successfully reduced deep learning model size by ~70% and achieved a significant latency speedup factor, making neural models production-ready for real-time edge environments and game loops.
