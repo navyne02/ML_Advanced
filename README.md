@@ -291,3 +291,8 @@
 * **Library:** PyTorch, Core OS.
 * **Concept:** NVIDIA TensorRT Optimization Architecture, Model Quantization (FP32 to INT8), Inference Latency Reduction, Memory Footprint Compression.
 * **Outcome:** Simulated high-performance TensorRT deployment mechanics by developing a dynamic model quantization pipeline. Successfully reduced deep learning model size by ~70% and achieved a significant latency speedup factor, making neural models production-ready for real-time edge environments and game loops.
+---
+### **Day 59: Game AI - Procedural Content Generation (PCG)**
+* **Library:** NumPy Core.
+* **Concept:** Markov Chains, Stochastic State Transitions, Probability Modeling, Automated Map/Asset Generation.
+* **Outcome:** Implemented a procedural asset and map layout generator from scratch using Markov Chains. Configured conditional state transition matrices to algorithmically spawn connected tactical structures (walls, turrets) around core target nodes, modeling real-world adaptive level design mechanics.
