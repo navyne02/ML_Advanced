@@ -36,4 +36,4 @@ print(f'\nFinal Accuracy: {test_acc*100:.2f}%')
 prediction = model.predict(X_test)
 plt.imshow(X_test[0], cmap='gray')
 plt.title(f"Actual: {y_test[0]} | AI Predicts: {prediction[0].argmax()}")
-plt.show()
+plt.show() #vday100
