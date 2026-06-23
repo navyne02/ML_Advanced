@@ -301,3 +301,8 @@
 * **Library:** Pure Python Engineering Framework.
 * **Concept:** Multi-head Threat Inspection, Behavioral Traffic Fingerprinting, Cognitive Next-Hop Routing, Architectural Core Systems Integration.
 * **Outcome:** Successfully converged networking domain architecture with advanced AI heuristics. Engineered a unified production-grade simulation of an Autonomous Zero-Trust Switch capable of intercepting malicious C2 beaconing data, profile filtering encrypted flows, and dynamically mapping optimal network hops simultaneously under microsecond deadlines.
+---
+### **Day 61: LLM Architecture - Parameter-Efficient Fine-Tuning (PEFT/LoRA)**
+* **Library:** PyTorch Core.
+* **Concept:** Low-Rank Adaptation (LoRA), Parameter-Efficient Fine-Tuning, Matrix Decomposition, Scaling Factors.
+* **Outcome:** Engineered a manual simulation of a LoRA injection layer. Demonstrated how decomposing a massive weight tensor update into low-rank matrices ($A$ and $B$) can freeze the primary neural weights and eliminate 99.8% of trainable parameters during custom domain alignment.
