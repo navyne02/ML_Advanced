@@ -306,3 +306,8 @@
 * **Library:** PyTorch Core.
 * **Concept:** Low-Rank Adaptation (LoRA), Parameter-Efficient Fine-Tuning, Matrix Decomposition, Scaling Factors.
 * **Outcome:** Engineered a manual simulation of a LoRA injection layer. Demonstrated how decomposing a massive weight tensor update into low-rank matrices ($A$ and $B$) can freeze the primary neural weights and eliminate 99.8% of trainable parameters during custom domain alignment.
+---
+### **Day 62: LLM Production - Model Quantization Mechanics**
+* **Library:** PyTorch Core Telemetry.
+* **Concept:** Symmetric Quantization, Scale Factors, INT8 Mapping, Quantization Error (MSE) Auditing, QLoRA foundations.
+* **Outcome:** Built an optimization script simulating raw tensor quantization from scratch. Achieved a deterministic 75% reduction in VRAM memory footprint by compressing FP32 weights into signed INT8 blocks, validating that massive scale compression can preserve critical neural structures with near-zero mathematical error.
