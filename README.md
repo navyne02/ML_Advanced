@@ -316,3 +316,8 @@
 * **Library:** PyTorch Core Framework.
 * **Concept:** Autoregressive Generation, Key-Value Caching, Attention Computational Complexity ($O(N^2)$ to $O(N)$ reduction), Inference Latency Optimization.
 * **Outcome:** Simulated the attention mechanism matrix processing cycles with and without KV Caching. Demonstrated how storing computed historical tensor representations saves critical GPU tensor core cycles, dropping scaling time constraints linearly during high-context length token streaming.
+---
+### **Day 64: LLM Architecture - Retrieval-Augmented Generation (RAG)**
+* **Library:** NumPy Core Math.
+* **Concept:** Vector Embeddings, Cosine Similarity Search, Prompt Augmentation, Contextual Ingestion, Mitigation of LLM Hallucinations.
+* **Outcome:** Built a conceptual end-to-end RAG (Retrieval-Augmented Generation) pipeline from scratch. Simulated semantic vector database lookup routines using cosine similarity math to isolate context-specific corporate intelligence and feed augmented input matrices into LLM generators.
