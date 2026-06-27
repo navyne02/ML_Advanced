@@ -321,3 +321,8 @@
 * **Library:** NumPy Core Math.
 * **Concept:** Vector Embeddings, Cosine Similarity Search, Prompt Augmentation, Contextual Ingestion, Mitigation of LLM Hallucinations.
 * **Outcome:** Built a conceptual end-to-end RAG (Retrieval-Augmented Generation) pipeline from scratch. Simulated semantic vector database lookup routines using cosine similarity math to isolate context-specific corporate intelligence and feed augmented input matrices into LLM generators.
+---
+### **Day 65: LLM Architecture - FlashAttention & Memory Hardware Optimization**
+* **Library:** PyTorch Core Tensor Operations.
+* **Concept:** GPU Memory Hierarchy (HBM vs SRAM), Memory-Bound Bottlenecks, Online Softmax Tiling, I/O Complexity Reduction.
+* **Outcome:** Engineered a structural simulation of the FlashAttention framework. Demonstrated how partitioning sequence matrix calculations into discrete blocks (Tiling) eliminates redundant intermediate High-Bandwidth Memory (HBM) reads/writes, optimizing hardware level execution paths for long-context language models.
