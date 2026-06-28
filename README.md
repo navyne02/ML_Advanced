@@ -326,3 +326,8 @@
 * **Library:** PyTorch Core Tensor Operations.
 * **Concept:** GPU Memory Hierarchy (HBM vs SRAM), Memory-Bound Bottlenecks, Online Softmax Tiling, I/O Complexity Reduction.
 * **Outcome:** Engineered a structural simulation of the FlashAttention framework. Demonstrated how partitioning sequence matrix calculations into discrete blocks (Tiling) eliminates redundant intermediate High-Bandwidth Memory (HBM) reads/writes, optimizing hardware level execution paths for long-context language models.
+---
+### **Day 66: LLM Alignment - Reinforcement Learning from Human Feedback (RLHF)**
+* **Library:** PyTorch Core Neural Systems.
+* **Concept:** LLM Alignment, Reward Modeling, Bradley-Terry Preference Optimization, Helpful/Honest/Harmless (HHH) Safety Enforcements.
+* **Outcome:** Built an optimization pipeline simulating an LLM Reward Model from scratch. Implemented a preference scoring mechanism using custom scalar loss vectors to dynamically train a grading network to prefer human-validated high-quality completions over sub-optimal sequences.
