@@ -336,3 +336,8 @@
 * **Library:** Pure Python Memory Systems.
 * **Concept:** Virtual Memory Frameworks, Contiguous vs Non-contiguous Allocation, Internal Fragmentation Mitigation, Page Tables, Memory-Bound Serving Bottlenecks.
 * **Outcome:** Engineered a simulation of the PagedAttention allocation engine. Demonstrated how mapping logical token structures dynamically to discrete, non-contiguous physical VRAM memory blocks optimizes high-throughput serving constraints and prevents GPU Out-Of-Memory (OOM) fragmentation faults during parallel text compilation.
+---
+### **Day 68: LLM Production - Speculative Decoding Architecture**
+* **Library:** Pure Python Execution Framework.
+* **Concept:** Inference Acceleration, Draft vs. Target Model Paradigms, Parallel Token Verification, Compute Optimization.
+* **Outcome:** Built a functional simulator of the Speculative Decoding execution pipeline. Demonstrated how utilizing a lightweight draft model to predict future tokens, combined with a single-pass verification by a large target LLM, reduces heavy GPU VRAM weight processing cycles by 50% without altering target text quality.
