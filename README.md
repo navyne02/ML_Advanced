@@ -356,3 +356,8 @@
 * **Library:** Pure Python Engineering.
 * **Concept:** Autonomous AI Agents, ReAct Framework, Thought-Action-Observation Loops, Tool Execution Frameworks.
 * **Outcome:** Engineered an autonomous AI Network Administrator agent loop from scratch using the ReAct framework. Modeled dynamic multi-step reasoning chains where the agent evaluates external runtime constraints, executes diagnostic tools, and applies remediation patches independently to solve complex operational challenges.
+**---
+### **Day 72: Agentic AI - LLM Function Calling & Dynamic Tool Routing**
+* **Library:** Pure Python Core Components, JSON.
+* **Concept:** Tool Calling paradigms, Structured Intent Parsing, Dynamic Function Mapping, Runtime Arguments Unpacking (**kwargs).
+* **Outcome:** Engineered a production-grade simulation of an LLM Function Calling router engine. Created a robust mapping layers framework that intercepts structured JSON tool payloads from language models, dynamically triggers isolated backend Python operations, and packages telemetry responses back into the prompt ecosystem.**
