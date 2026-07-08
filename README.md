@@ -376,3 +376,8 @@
 * **Library:** Pure Python Agent Core.
 * **Concept:** Task Decomposition, Reflexion Paradigms, Self-Critique Loops, Automated Code Healing.
 * **Outcome:** Engineered a structural simulation of a self-reflective AI Agent from scratch. Developed a multi-layered pipeline where the agent decomposes complex goals into execution blueprints, audits its own intermediate code blocks for structural vulnerabilities, and dynamically self-corrects logic paths prior to production delivery.
+---
+### **Day 76: Agentic AI - LangGraph & Directed Acyclic Graph (DAG) State Machines**
+* **Library:** Pure Python Graph Engineering Core.
+* **Concept:** Graph Architecture for AI, Shared Agent State Management, Conditional Edge Routing, State Transformers (Nodes).
+* **Outcome:** Engineered a production-grade functional simulation of a LangGraph state machine from scratch. Modeled execution flows where transactional data tokens pass sequentially through isolated nodes and conditional edges to guarantee 100% deterministic tracking without unbounded execution loops.
