@@ -401,3 +401,8 @@
 * **Library:** Pure Python Core Systems & Pydantic Framework.
 * **Concept:** Multi-Agent Swarm Orchestration, Semantic Routing, LangGraph State Processing, ReAct Logic Circuits, Human-in-the-Loop Gateways, AI Evaluation Benchmarks.
 * **Outcome:** Successfully designed and implemented a unified simulation of an Enterprise-scale Autonomous Swarms Controller. Intercepted global high-risk directives, routed execution paths via mathematical proximity vectors, and established structural human-in-the-loop validation barriers combined with automated AI auditing engines to deliver deterministic, production-safe JSON outputs.
+---
+### **Day 81: AI Security - Prompt Injection & Adversarial Defense**
+* **Library:** Pure Python Regex Core.
+* **Concept:** Prompt Injection, Jailbreaking Patterns, Input Sanitization Gates, Security Interceptions.
+* **Outcome:** Built an automated prompt sanitizer engine from scratch. Implemented regular expression patterns targeting common adversarial phrases, establishing an inline firewall that inspects and quarantines malicious user prompts before they mutate system prompts in production environments.
