@@ -406,3 +406,8 @@
 * **Library:** Pure Python Regex Core.
 * **Concept:** Prompt Injection, Jailbreaking Patterns, Input Sanitization Gates, Security Interceptions.
 * **Outcome:** Built an automated prompt sanitizer engine from scratch. Implemented regular expression patterns targeting common adversarial phrases, establishing an inline firewall that inspects and quarantines malicious user prompts before they mutate system prompts in production environments.
+---
+### **Day 82: AI Security - Prompt Leaking & Canary Token Architectures**
+* **Library:** Pure Python Core String Analysis.
+* **Concept:** Prompt Leaking Exploits, Intellectual Property Protection, Canary Tokens, Post-Processing Output Filters.
+* **Outcome:** Developed an automated output validation firewall utilizing Canary Tokens from scratch. Implemented strict pattern matching algorithms that intercept outbound language model telemetry and systematically quarantine outputs if unique system prompt hashes leak during execution.
