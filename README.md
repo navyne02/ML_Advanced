@@ -411,3 +411,8 @@
 * **Library:** Pure Python Core String Analysis.
 * **Concept:** Prompt Leaking Exploits, Intellectual Property Protection, Canary Tokens, Post-Processing Output Filters.
 * **Outcome:** Developed an automated output validation firewall utilizing Canary Tokens from scratch. Implemented strict pattern matching algorithms that intercept outbound language model telemetry and systematically quarantine outputs if unique system prompt hashes leak during execution.
+---
+### **Day 83: AI Security - Data Poisoning & Backdoor Defense**
+* **Library:** NumPy Vector Core.
+* **Concept:** Data Poisoning, Backdoor Trigger Injections, Centroid Anomaly Filtering, Euclidean Distance Outlier Mitigation.
+* **Outcome:** Engineered an automated data poisoning defense pipeline from scratch. Implemented a representation space filtering algorithm that profiles class centroids across training batches to isolate and quarantine anomalous backdoor vectors before model compilation.
