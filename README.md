@@ -416,3 +416,8 @@
 * **Library:** NumPy Vector Core.
 * **Concept:** Data Poisoning, Backdoor Trigger Injections, Centroid Anomaly Filtering, Euclidean Distance Outlier Mitigation.
 * **Outcome:** Engineered an automated data poisoning defense pipeline from scratch. Implemented a representation space filtering algorithm that profiles class centroids across training batches to isolate and quarantine anomalous backdoor vectors before model compilation.
+### **Day 83: AI Security - Data Poisoning & Backdoor Defense**
+* **Library:** NumPy Vector Core.
+* **Concept:** Data Poisoning, Backdoor Trigger Injections, Centroid Anomaly Filtering, Euclidean Distance Outlier Mitigation.
+* **Outcome:** Engineered an automated data poisoning defense pipeline from scratch. Implemented a representation space filtering algorithm that profiles class centroids across training batches to isolate and quarantine anomalous backdoor vectors before model compilation.
+
